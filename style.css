@@ -21,6 +21,7 @@ body {
   nav {
     width: 150%;
   }
+
   .top-toolbar {
     width: 100%;
     display: flex;
@@ -82,10 +83,13 @@ body {
     height: 0;
     border: 1px solid #646369;
     margin: 0 auto;
-    
   }
 
-  .head-text  hr {
+  footer hr {
+    width: 100%;
+  }
+
+  .head-text hr {
     width: 85%;
     height: 0;
     border: 1px solid #646369;
@@ -145,7 +149,6 @@ body {
 
   .social ul {
     display: flex;
-    
     gap: 1.2rem;
     margin-bottom: 4rem;
   }
@@ -335,10 +338,6 @@ body {
     margin-top: 1.2rem;
   }
 
-  footer hr {
-    width: 100%;
-  }
-
   .sub-grid-6 {
     display: none;
   }
@@ -356,6 +355,7 @@ body {
   nav {
     width: 120%;
   }
+
   .upper-toolbar {
     display: flex;
     justify-content: space-between;
@@ -443,6 +443,10 @@ body {
     margin: auto;
   }
 
+  footer hr {
+    display: none;
+  }
+
   hr .head-text {
     width: 30%;
     height: 0;
@@ -516,15 +520,12 @@ body {
     display: none;
   }
 
-  footer hr {
-    display: none;
-  }
-
   .headline hr {
     width: 30%;
     margin: 0 auto;
   }
- .recent hr {
+
+  .recent hr {
     width: 75%;
     height: 0;
     border: 1px solid #646369;
@@ -714,7 +715,6 @@ body {
 
   .btm-icon-2 {
     display: flex;
-    justify-content: space-around;
     gap: 20px;
     margin-top: 4rem;
     margin-left: 40rem;
