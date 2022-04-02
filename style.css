@@ -397,6 +397,30 @@ body {
     transition: transform 0.2s ease-in;
   }
 
+  .btn-1 :enabled {
+    color: #7d73fc;
+  }
+
+  .btn-1 :hover {
+    color: #7d73fc;
+  }
+
+  .btn-1 :disabled {
+    color: #2a2b33;
+  }
+
+  .ctn-btn-2 :enabled {
+    color: #7d73fc;
+  }
+
+  .ctn-btn-2 :hover {
+    color: #7d73fc;
+  }
+
+  .ctn-btn-2 :disabled {
+    color: #2a2b33;
+  }
+
   .title-bkg h1 :hover {
     transform: translateY(-15px);
   }
@@ -580,18 +604,6 @@ body {
     margin-top: 12px;
   }
 
-  .btn-1 :enabled {
-    color: #7d73fc;
-  }
-
-  .btn-1 :hover {
-    color: #7d73fc;
-  }
-
-  .btn-1 :disabled {
-    color: #2a2b33;
-  }
-
   .sub-grid-2 {
     background-image: url('Ellipse 22.svg');
     background-repeat: no-repeat;
@@ -670,18 +682,6 @@ body {
     margin-top: 2rem;
     margin-bottom: 5rem;
     margin-left: 4.5rem;
-  }
-
-  .ctn-btn-2 :enabled {
-    color: #7d73fc;
-  }
-
-  .ctn-btn-2 :hover {
-    color: #7d73fc;
-  }
-
-  .ctn-btn-2 :disabled {
-    color: #2a2b33;
   }
 
   .btm-icon-2 {
