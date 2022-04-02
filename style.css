@@ -394,6 +394,11 @@ body {
     font-size: 70px;
     color: #7d73fc;
     line-height: 90px;
+    transition: transform 0.2s ease-in;
+  }
+
+  .title-bkg h1 :hover {
+    transform: translateY(-15px);
   }
 
   .title-bkg h3 {
