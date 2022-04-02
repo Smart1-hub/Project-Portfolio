@@ -18,12 +18,7 @@ body {
     display: none;
   }
 
-  nav {
-    width: 150%;
-  }
-
   .top-toolbar {
-    width: 100%;
     display: flex;
     justify-content: space-between;
     margin-top: 25px;
@@ -36,12 +31,7 @@ body {
     color: #fff;
   }
 
-  .headline {
-    width: 130%;
-  }
-
   .section-head {
-    width: 120%;
     text-align: center;
   }
 
@@ -64,7 +54,6 @@ body {
   }
 
   .head-text {
-    width: 100%;
     margin-top: 2rem;
     margin-bottom: 2rem;
   }
@@ -79,7 +68,7 @@ body {
   }
 
   hr {
-    width: 85%;
+    width: 50%;
     height: 0;
     border: 1px solid #646369;
     margin: 0 auto;
@@ -87,10 +76,12 @@ body {
 
   footer hr {
     width: 100%;
+    height: 0;
+    border: 1px solid #646369;
+    margin: 0 auto;
   }
 
   .head-text hr {
-    width: 85%;
     height: 0;
     border: 1px solid #646369;
     margin: 0 auto;
@@ -103,7 +94,6 @@ body {
     padding-right: 3rem;
     padding-top: 2.5rem;
     line-height: 2.5rem;
-    width: 100%;
     margin: 0 auto;
   }
 
@@ -141,7 +131,6 @@ body {
   }
 
   .social {
-    width: 100%;
     margin-left: 4rem;
     justify-content: center;
     padding: 5rem 4rem 0.6rem 2rem;
@@ -166,7 +155,6 @@ body {
 
   /* Work-section */
   .work-grid {
-    width: 100%;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr;
@@ -181,10 +169,6 @@ body {
     margin-top: 6rem;
     margin-bottom: 1.8rem;
     padding-left: 1.8rem;
-  }
-
-  .tp-form {
-    width: 120%;
   }
 
   input,
@@ -220,7 +204,6 @@ body {
     margin-left: 4rem;
     margin-right: 3rem;
     margin-bottom: 4rem;
-    position: static;
   }
 
   .story-title {
@@ -352,10 +335,6 @@ body {
 }
 
 @media (min-width: 768px) {
-  nav {
-    width: 120%;
-  }
-
   .upper-toolbar {
     display: flex;
     justify-content: space-between;
@@ -437,7 +416,7 @@ body {
   }
 
   hr {
-    width: 30%;
+    width: 35%;
     height: 0;
     border: 1px solid #646369;
     margin: auto;
@@ -448,7 +427,6 @@ body {
   }
 
   hr .head-text {
-    width: 30%;
     height: 0;
     border: 1px solid #646369;
     margin: auto;
@@ -521,7 +499,6 @@ body {
   }
 
   .headline hr {
-    width: 30%;
     margin: 0 auto;
   }
 
@@ -545,24 +522,17 @@ body {
     border: none;
     outline: none;
     background: #fff;
-    margin-top: 4rem;
-    margin-left: 4rem;
-    margin-right: 3rem;
-    margin-bottom: 4rem;
-    position: static;
   }
 
   .sub-flex {
     display: flex;
-    width: 85%;
-    margin: 0 auto;
-    padding: 1.8rem;
+    justify-content: center;
+    margin: 3rem;
+    gap: 20px;
   }
 
   .story-title {
     width: 448px;
-    margin-top: 3rem;
-    margin-left: 5px;
   }
 
   .story-title h2 {
@@ -570,14 +540,13 @@ body {
     line-height: 52px;
     color: #fff;
     margin-bottom: 2rem;
-    margin-top: 4rem;
+    margin-top: 2rem;
   }
 
   .story-title p {
     font-size: 20px;
     line-height: 28px;
     color: #dfe1e6;
-    position: static;
   }
 
   .story-title ul {
@@ -628,13 +597,13 @@ body {
   .sub-flex-2 {
     display: flex;
     flex-direction: row-reverse;
-    width: 85%;
-    margin: 0 auto;
-    padding: 1.8rem;
+    justify-content: center;
+    margin: 3rem;
+    gap: 20px;
   }
 
   .ctr-form {
-    width: 40%;
+    width: 50%;
     margin: 0 auto;
   }
 
@@ -647,7 +616,6 @@ body {
   }
 
   .skills hr {
-    width: 100%;
     margin: 0 auto;
   }
 
@@ -661,7 +629,7 @@ body {
     color: #7d73fc;
     margin-top: 8rem;
     margin-bottom: 2.5rem;
-    margin-left: 10rem;
+    text-align: center;
   }
 
   p.align-text {
@@ -669,20 +637,18 @@ body {
     line-height: 28px;
     color: #b3bac5;
     margin-bottom: 6rem;
-    margin-left: 10rem;
+    text-align: center;
   }
 
   input,
   textarea {
     display: flex;
     flex-direction: column;
-    justify-self: center;
     width: 684px;
     padding: 1rem;
     margin-bottom: 2rem;
     color: #646369;
     box-sizing: border-box;
-    margin-left: 5rem;
   }
 
   input {
@@ -697,8 +663,8 @@ body {
     border: none;
     padding: 0.5rem 1rem;
     margin-top: 2rem;
-    margin-bottom: 7rem;
-    margin-left: 20rem;
+    margin-bottom: 5rem;
+    margin-left: 4.5rem;
   }
 
   .ctn-btn-2 :enabled {
@@ -717,11 +683,21 @@ body {
     display: flex;
     gap: 20px;
     margin-top: 4rem;
-    margin-left: 40rem;
   }
 
   .social-2 {
     display: flex;
     gap: 20px;
+  }
+
+  .dkt-fter {
+    display: flex;
+    justify-content: center;
+  }
+
+  .align-text hr {
+    width: 100%;
+    height: 0;
+    border: 1px solid #646369;
   }
 }
