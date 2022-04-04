@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 # Project Name
-> Porfolio: Desktop Version
+> Porfolio: Mobile/Desktop Version
 This is a Microverse project, week 2 - Module 1 for newly admitted students. It is precisely on building a personal portfolio, desktop version. 
 ## Built With
 - HTML and CSS
