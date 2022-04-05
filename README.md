@@ -1,13 +1,15 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 # Project Name
-> Porfolio: Desktop Version
+> Porfolio: Mobile/Desktop Version
 This is a Microverse project, week 2 - Module 1 for newly admitted students. It is precisely on building a personal portfolio, desktop version. 
 ## Built With
 - HTML and CSS
 To get a local copy up and running follow these simple example steps:
-1. follow this link - https://smart1-hub.github.io/Project-Portfolio
+1. follow this link - https://github.com/Smart1-hub/Project-Portfolio
 2. Go to code and choose clone
 3. In your local machine, open VS code or other text editor and clone the github repo above
+## Live Demo
+ Live Demo Link- https://smart1-hub.github.io/Project-Portfolio
 ## Author
 👤 **Ademola Adebayo**
 - GitHub: [@githubhandle](https://github.com/Smart1-hub)
