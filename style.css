@@ -454,6 +454,14 @@ body {
     cursor: pointer;
   }
 
+  .links {
+    color: #fff;
+  }
+  
+  .links:hover {
+    text-decoration: underline;
+  }  
+
   .btn-1 :enabled {
     color: #7d73fc;
   }
@@ -876,4 +884,12 @@ body {
     border: none;
     padding: 0.5rem 1rem;
   }
+
+  .soc-wrk a {
+    color: #fff;
+  }
+  
+  .soc-wrk a:hover {
+    text-decoration: underline;
+  }  
 }
