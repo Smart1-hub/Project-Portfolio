@@ -347,6 +347,10 @@ form {
     transition: transform 0.5s ease-in;
   }
 
+  .env {
+    display: none;
+  }
+
   .burger {
     display: block;
     cursor: pointer;
