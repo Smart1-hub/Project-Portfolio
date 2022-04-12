@@ -12,14 +12,13 @@
 html {
   overflow-x: hidden;
 }
+
 body {
   overflow-x: hidden;
   background: #1b115e;
 }
 
-.recent .sub-grid .sub-grid-2 
-.sub-grid-5 .sub-grid-6 .sub-grid-7 
-.sub-grid-8 {
+.recent .sub-grid .sub-grid-2 .sub-grid-5 .sub-grid-6 .sub-grid-7 .sub-grid-8 {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
@@ -64,7 +63,7 @@ body {
 
   .burger i {
     color: #fff;
-  }  
+  }
 
   .nav-active {
     transform: translateX(0%);
@@ -467,47 +466,46 @@ body {
 }
 
 @media screen and (min-width: 768px) {
- 
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  color: #fff;
-  padding-top: 2rem;
-  padding-left: 1rem;
-  padding-right: 1.5rem;
-  padding-bottom: 3rem;
-}
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1.5rem;
+    padding-bottom: 3rem;
+  }
 
-.soc-wrk {
-  display: flex;
-  justify-content: center;
-}
+  .soc-wrk {
+    display: flex;
+    justify-content: center;
+  }
 
-.soc-wrk a {
-  color: #fff;
-}
+  .soc-wrk a {
+    color: #fff;
+  }
 
-.navbar ul li a {
-  color: #fff;
-}
+  .navbar ul li a {
+    color: #fff;
+  }
 
-.nav-right {
-  display: flex;
-  gap: 15px;
-}
+  .nav-right {
+    display: flex;
+    gap: 15px;
+  }
 
-.nav-right i {
-  color: #fff;
-}
+  .nav-right i {
+    color: #fff;
+  }
 
-.nav-right ul {
-  display: flex;
-  gap: 1rem;
-}
+  .nav-right ul {
+    display: flex;
+    gap: 1rem;
+  }
 
-.burger {
-  display: none;
-}
+  .burger {
+    display: none;
+  }
 
   .links:hover {
     text-decoration: underline;
@@ -562,7 +560,7 @@ body {
     font-size: 15px;
   }
 
-   .section-head {
+  .section-head {
     margin: 0 auto;
     text-align: center;
     margin-top: 60px;
@@ -661,7 +659,6 @@ body {
   .social ul li {
     color: #fff;
   }
-  
 
   .dn-2-page {
     display: flex;
@@ -895,11 +892,6 @@ body {
     padding-top: 2rem;
   }
 
-  .soc-wrk {
-    display: flex;
-    justify-content: center;
-  }
-
   .soc-wrk ul {
     display: flex;
     gap: 25px;
@@ -927,10 +919,6 @@ body {
     cursor: pointer;
     border: none;
     padding: 0.5rem 1rem;
-  }
-
-  .soc-wrk a {
-    color: #fff;
   }
 
   .soc-wrk a:hover {
