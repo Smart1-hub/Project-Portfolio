@@ -925,3 +925,33 @@ body {
     text-decoration: underline;
   }
 }
+
+.mobile {
+  position: fixed;
+  background: #191765;
+  display: none;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+}
+
+.close {
+  position: absolute;
+  right: 40px;
+  top: 40px;
+  cursor: pointer;
+}
+
+.menu-right {
+  margin-top: 100px;
+}
+
+.menu-links {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: bold;
+}
