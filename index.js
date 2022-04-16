@@ -121,55 +121,55 @@ const popupWindow = document.querySelector('.popup-window').style;
 
 
 
-// const workData = () => {
-//         const popup = `<div class="popup-window">
-//         <div class="popup-title">
-//             <h2>${projectCards[i].title}</h2>
-//             <i class="fa fa-close popup-close"></i>
-//         </div>
-//         <img src="${projectCards[i].image}" alt="">
-//         <p>${projectCards[i].description}</p>
-//         <div class="popup-languages">
-//             <ul class="laguages-list">${projectCards[i].languages.map((s) => `<li>${s}</li>`).join('')}</ul>
-//         </div>
-//         <div class="popup-button">
-//             <div class="link-btn">
-//                 <button class="btn-ctc">See Live </button>
-//                 <button class="btn-ctc">See Source</button>
-//             </div>
-//         </div>
-//     </div>`;
-//     document.querySelector('.popup-container').innerHTML = popup;
-//     document.querySelector('body').style = 'overflow: hidden';
-//     document.querySelector('.popup-window').style = 'display: flex; position: fixed; top: 5px; left: 15px';
+const workData = () => {
+        const popup = `<div class="popup-window">
+        <div class="popup-title">
+            <h2>${projectCards[i].title}</h2>
+            <i class="fa fa-close popup-close"></i>
+        </div>
+        <img src="${projectCards[i].image}" alt="">
+        <p>${projectCards[i].description}</p>
+        <div class="popup-languages">
+            <ul class="laguages-list">${projectCards[i].languages.map((s) => `<li>${s}</li>`).join('')}</ul>
+        </div>
+        <div class="popup-button">
+            <div class="link-btn">
+                <button class="btn-ctc">See Live </button>
+                <button class="btn-ctc">See Source</button>
+            </div>
+        </div>
+    </div>`;
+    document.querySelector('.popup-container').innerHTML = popup;
+    document.querySelector('body').style = 'overflow: hidden';
+    document.querySelector('.popup-window').style = 'display: flex; position: fixed; top: 5px; left: 15px';
 
-// };
+};
 
-// function poppuWindow(cardId) {
-//     if (cardId === null) return;
-//     let item = projectsList.filter((elem) => elem.id === cardId);
-//     item = item.shift();
-//     const popup = `<div class="popup-window">
-//         <div class="popup-title">
-//             <h2>${item.title}</h2>
-//             <i class="fa fa-close popup-close"></i>
-//         </div>
-//         <img src="${item.image}" alt="">
-//         <p>${item.description}</p>
-//         <div class="popup-languages">
-//             <ul class="laguages-list">
-//                 <li>html</li>
-//                 <li>Ruby on rails</li>
-//                 <li>css</li>
-//             </ul>
-//         </div>
-//         <div class="popup-button">
-//             <div class="link-btn">
-//                 <button class="btn-ctc">See Live </button>
-//                 <button class="btn-ctc">See Source</button>
-//             </div>
-//         </div>
-//     </div>`;
-//     document.querySelector('.popup-container').innerHTML = popup;
+function poppuWindow(cardId) {
+    if (cardId === null) return;
+    let item = projectsList.filter((elem) => elem.id === cardId);
+    item = item.shift();
+    const popup = `<div class="popup-window">
+        <div class="popup-title">
+            <h2>${item.title}</h2>
+            <i class="fa fa-close popup-close"></i>
+        </div>
+        <img src="${item.image}" alt="">
+        <p>${item.description}</p>
+        <div class="popup-languages">
+            <ul class="laguages-list">
+                <li>html</li>
+                <li>Ruby on rails</li>
+                <li>css</li>
+            </ul>
+        </div>
+        <div class="popup-button">
+            <div class="link-btn">
+                <button class="btn-ctc">See Live </button>
+                <button class="btn-ctc">See Source</button>
+            </div>
+        </div>
+    </div>`;
+    document.querySelector('.popup-container').innerHTML = popup;
 
-// }
+}
