@@ -151,13 +151,13 @@ function popping() {
   popupContainer.classList.add('show-popup');
 
 }
-// window.onload = popping();
+
+const closeBtn = document.querySelector('.opup-close');
+// const popUpData = document.querySelector('.popUpData');
 const openBtn = document.querySelectorAll('.window-btn');
-// const closeBtn = document.querySelector('.opup-close');
-const popUpData = document.querySelector('.popUpData');
+const popUpContainer = document.querySelector('.popup-container');
 
 function closePopUp() {
-  const popUpContainer = document.querySelector('.popup-container');
   popUpContainer.classList.add('close-modal');
 }
 //   const model = document.getElementById("popup-container");
