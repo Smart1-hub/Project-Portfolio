@@ -230,7 +230,7 @@
                 <form id="form" class="text-align" action="https://formspree.io/f/form_id" method="post">
                   <ul>
                     <li><input type="text" id="text_input" name="text_input" maxlength="30" placeholder="Text input" required></li>
-                    <li><input type="Email" id="email" class="form-email" name="email" pattern="^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$" placeholder="scdk@yahoo.com" required></li>
+                    <li><input type="Email" id="email" class="form-email" name="email" pattern="/^[a-z][a-z0-9\-_.]+@[a-z]{2,}\.[a-z0-9]{2,}$/" placeholder="scdk@yahoo.com" required></li>
                   </ul>
                   <textarea name="user_message" id="msg" class="form-text formInput" cols="30" rows="10" maxlength="500" required>Enter text here</textarea>
                   <small class="form-error"></small>
@@ -256,11 +256,11 @@
           <form id="form" class="align-text" action="https://formspree.io/f/form_id" method="post">
               <ul>
                   <li><input type="text" id="name" name="text_input" maxlength="30" placeholder="Full-name" required></li>
-                  <li><input type="text" id="user_email" class="form-email" name="email" pattern="^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$" placeholder="Email address" required></li>
+                  <li><input type="text" id="user_email" class="form-email" name="email" pattern="/^[a-z][a-z0-9\-_.]+@[a-z]{2,}\.[a-z0-9]{2,}$/" placeholder="Email address" required></li>
               </ul>
-              <textarea name="message" id="user_message" class="form-text formInput" cols="30" rows="10" maxlength="500" required>Write your message here</textarea>
+              <textarea name="message" id="user_message" class="action-buttons" cols="30" rows="10" maxlength="500" required>Write your message here</textarea>
               <small class="form-error"></small>
-              <button class="ctn-btn-2" type="submit">Submit</button>
+              <button id="emailBtn" class="ctn-btn-2" type="submit">Submit</button>
               <hr>
           </form>
       </div>

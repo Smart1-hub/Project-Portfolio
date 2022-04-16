@@ -33,3 +33,30 @@ links.forEach((link)=>{
   })
   
 })
+
+ // Local Storge
+
+ const inputs = document.querySelectorAll('.formInput');
+ inputs.forEach((input) => {
+   input.addEventListener('change', (e) => {
+     let userInfo = JSON.parse(localStorage.getItem('userInfo'));
+     if (!userInfo) {
+       userInfo = { name: '', email: '', message: '' };
+     }
+     userInfo[e.target.name] = e.target.value;
+     localStorage.setItem('userInfo', JSON.stringify(userInfo));
+   });
+ });
+ 
+ function getInfo() {
+   const userInfo = JSON.parse(localStorage.getItem('userInfo'));
+   if (userInfo) {
+     document.getElementById('name').value = userInfo.name;
+     document.getElementById('email').value = userInfo.email;
+     document.getElementById('msg').value = userInfo.message;
+   }
+ }
+ 
+ getInfo();
+ 
+ // end of local Storge

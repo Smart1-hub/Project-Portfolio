@@ -173,3 +173,54 @@ function poppuWindow(cardId) {
     document.querySelector('.popup-container').innerHTML = popup;
 
 }
+
+ // start of validation
+function chckValidation(elem) {
+    if (!elem) {
+      document.querySelector('small').style = 'display: block';
+      document.querySelector('small').innerHTML = 'Please write your email in lowercase.';
+      document.querySelector('.form-email').style = 'border: 3px red solid';
+    }
+  }
+  
+  const form = document.getElementById('form');
+  
+  form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const email = document.querySelector('.form-email').value;
+    if (email !== email.toLowerCase()) {
+      chckValidation(false);
+      return;
+    }
+    form.submit();
+    form.reset();
+    chckValidation(true);
+  });
+  // end of validation
+
+  // Local Storge
+
+const inputs = document.querySelectorAll('.formInput');
+inputs.forEach((input) => {
+  input.addEventListener('change', (e) => {
+    let userInfo = JSON.parse(localStorage.getItem('userInfo'));
+    if (!userInfo) {
+      userInfo = { name: '', email: '', message: '' };
+    }
+    userInfo[e.target.name] = e.target.value;
+    localStorage.setItem('userInfo', JSON.stringify(userInfo));
+  });
+});
+
+function getInfo() {
+  const userInfo = JSON.parse(localStorage.getItem('userInfo'));
+  if (userInfo) {
+    document.getElementById('name').value = userInfo.name;
+    document.getElementById('email').value = userInfo.email;
+    document.getElementById('msg').value = userInfo.message;
+  }
+}
+
+getInfo();
+
+// end of local Storge
