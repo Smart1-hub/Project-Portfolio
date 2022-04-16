@@ -69,7 +69,7 @@ body {
   }
 
   .section-head h1 {
-    font-size: 46px;
+    font-size: 45px;
     line-height: 66px;
     font-style: normal;
     color: #9490ff;
@@ -180,6 +180,25 @@ body {
 
   .social i {
     color: #fff;
+  }
+
+  .dn-page {
+    display: flex;
+    padding-left: 3rem;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+
+  .dn-2-page {
+    display: none;
+  }
+
+  /* Work-section */
+  .work-grid {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, auto);
   }
 
   .recent h3 {
@@ -449,270 +468,6 @@ body {
 
   .sub-grid-8 {
     display: none;
-  }
-
-  .navbar {
-    display: flex;
-    justify-content: space-between;
-    color: #fff;
-    padding-top: 2rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-  }
-
-  .burger {
-    display: block;
-    cursor: pointer;
-  }
-
-  .burger i {
-    color: #fff;
-  }
-
-  .nav-active {
-    transform: translateX(0%);
-  }
-
-  .section-head {
-    display: flex;
-    flex-direction: column;
-    flex-grow: 0;
-    text-align: center;
-  }
-
-  .head-text p {
-    font-size: 20px;
-    line-height: 28px;
-    color: #c8c8d4;
-    margin-top: 4rem;
-    margin-bottom: 4rem;
-    margin-left: 25px;
-  }
-
-  footer hr {
-    width: 100%;
-    height: 0;
-    border: 1px solid #646369;
-    margin: 0 auto;
-  }
-
-  form li + li,
-  textarea {
-    margin-top: 1em;
-  }
-
-  .lang-framework ul li {
-    color: #fff;
-    font-size: 16px;
-    margin: 0 auto;
-  }
-
-  .skills {
-    display: flex;
-    flex-direction: column;
-    flex-grow: 0;
-    padding-left: 4rem;
-    padding-bottom: 2.5rem;
-    line-height: 2.5rem;
-  }
-
-  .skills ul {
-    color: #fff;
-    font-size: 16px;
-  }
-
-  .social {
-    display: flex;
-    justify-content: center;
-    padding: 5rem 4rem 0.6rem 2rem;
-  }
-
-  .social ul {
-    display: flex;
-    gap: 1.2rem;
-    margin-bottom: 4rem;
-  }
-
-  .social i {
-    color: #fff;
-  }
-
-  .dn-page {
-    display: flex;
-    padding-left: 3rem;
-    gap: 1rem;
-    margin-top: 2rem;
-  }
-
-  .dn-2-page {
-    display: none;
-  }
-
-  /* Work-section */
-  .work-grid {
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(8, auto);
-  }
-
-  .recent h3 {
-    font-size: 40px;
-    line-height: 52px;
-    text-transform: uppercase;
-    color: #9490ff;
-    margin-top: 6rem;
-    margin-bottom: 1.8rem;
-    padding-left: 1.8rem;
-  }
-
-  input,
-  textarea {
-    color: #646369;
-    width: 327px;
-    box-sizing: border-box;
-    background-color: #fff;
-    border: none;
-    padding-left: 12px;
-    display: flex;
-    justify-content: center;
-  }
-
-  form input {
-    height: 48px;
-    margin: 0 auto;
-  }
-
-  textarea {
-    height: 148px;
-    margin: 0 auto;
-    margin-top: 1.5rem;
-  }
-
-  .box {
-    width: 327px;
-    height: 236px;
-    border: none;
-    outline: none;
-    background: #fff;
-    margin-top: 4rem;
-    margin-left: 4rem;
-    margin-right: 3rem;
-    margin-bottom: 4rem;
-  }
-
-  .box img {
-    width: 100%;
-  }
-
-  .story-title {
-    margin-left: 4rem;
-  }
-
-  .story-title h2 {
-    font-size: 32px;
-    line-height: 44px;
-    color: #fff;
-    margin-top: 1rem;
-    margin-bottom: 2rem;
-    padding-left: 1.8rem;
-  }
-
-  .story-title p {
-    font-size: 20px;
-    line-height: 28px;
-    color: #fff;
-    margin-bottom: 3rem;
-    padding-left: 1.8rem;
-  }
-
-  .story-title ul {
-    display: flex;
-    font-size: 15px;
-    color: #fff;
-    gap: 15px;
-    justify-content: center;
-    margin-left: 2rem;
-  }
-
-  .story-title ul li {
-    display: inline-block;
-    background: none;
-    border-right: 1px solid #646369;
-    padding: 0.3rem 1.5rem;
-  }
-
-  .btn-1 :hover {
-    color: #7d73fc;
-  }
-
-  .btn-1 :disabled {
-    color: #2a2b33;
-  }
-
-  .ctn-btn {
-    display: inline-block;
-    background: #9490ff;
-    color: #fff;
-    cursor: pointer;
-    border: none;
-    padding: 1rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-  }
-
-  .ctn-btn :enabled {
-    color: #7d73fc;
-  }
-
-  .ctn-btn :hover {
-    color: #7d73fc;
-  }
-
-  .ctn-btn :disabled {
-    color: #2a2b33;
-  }
-
-  .sub-grid-5 h2 {
-    font-size: 32px;
-    line-height: 44px;
-    color: #9390ff;
-    margin-top: 5rem;
-  }
-
-  .sub-grid-5 p {
-    font-size: 16px;
-    line-height: 24px;
-    color: #f5f5ff;
-    margin-top: 1.5rem;
-  }
-
-  .text-align {
-    text-align: center;
-    color: #fff;
-  }
-
-  form {
-    margin: 0 auto;
-    width: 500px;
-    padding: 1em;
-  }
-
-  .btm-icon {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    margin-bottom: 0.5rem;
-    margin-top: 1.2rem;
-  }
- 
-  .errorMsgContainer p {
-    display: none;
-    color: crimson;
-    font-style: italic;
-    margin-top: 3px;
-    font-size: 1.2rem;
-    font-weight: 900;
   }
 }
 
@@ -1206,15 +961,6 @@ body {
     align-items: center;
     flex-grow: 0;
   }
-
-  .errorMsgContainer p {
-    display: none;
-    color: crimson;
-    font-style: italic;
-    margin-top: 3px;
-    font-size: 1.2rem;
-    font-weight: 900;
-  }
 }
 
 .mobile {
@@ -1253,7 +999,8 @@ body {
 
 .popup-window {
   position: fixed;
-  display: none;
+
+  /* display: none; */
   flex-direction: column;
   width: 75%;
   height: 100%;

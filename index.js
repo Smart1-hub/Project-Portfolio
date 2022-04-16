@@ -121,106 +121,55 @@ const popupWindow = document.querySelector('.popup-window').style;
 
 
 
-const workData = () => {
-        const popup = `<div class="popup-window">
-        <div class="popup-title">
-            <h2>${projectCards[i].title}</h2>
-            <i class="fa fa-close popup-close"></i>
-        </div>
-        <img src="${projectCards[i].image}" alt="">
-        <p>${projectCards[i].description}</p>
-        <div class="popup-languages">
-            <ul class="laguages-list">${projectCards[i].languages.map((s) => `<li>${s}</li>`).join('')}</ul>
-        </div>
-        <div class="popup-button">
-            <div class="link-btn">
-                <button class="btn-ctc">See Live </button>
-                <button class="btn-ctc">See Source</button>
-            </div>
-        </div>
-    </div>`;
-    document.querySelector('.popup-container').innerHTML = popup;
-    document.querySelector('body').style = 'overflow: hidden';
-    document.querySelector('.popup-window').style = 'display: flex; position: fixed; top: 5px; left: 15px';
+// const workData = () => {
+//         const popup = `<div class="popup-window">
+//         <div class="popup-title">
+//             <h2>${projectCards[i].title}</h2>
+//             <i class="fa fa-close popup-close"></i>
+//         </div>
+//         <img src="${projectCards[i].image}" alt="">
+//         <p>${projectCards[i].description}</p>
+//         <div class="popup-languages">
+//             <ul class="laguages-list">${projectCards[i].languages.map((s) => `<li>${s}</li>`).join('')}</ul>
+//         </div>
+//         <div class="popup-button">
+//             <div class="link-btn">
+//                 <button class="btn-ctc">See Live </button>
+//                 <button class="btn-ctc">See Source</button>
+//             </div>
+//         </div>
+//     </div>`;
+//     document.querySelector('.popup-container').innerHTML = popup;
+//     document.querySelector('body').style = 'overflow: hidden';
+//     document.querySelector('.popup-window').style = 'display: flex; position: fixed; top: 5px; left: 15px';
 
-};
+// };
 
-function poppuWindow(cardId) {
-    if (cardId === null) return;
-    let item = projectsList.filter((elem) => elem.id === cardId);
-    item = item.shift();
-    const popup = `<div class="popup-window">
-        <div class="popup-title">
-            <h2>${item.title}</h2>
-            <i class="fa fa-close popup-close"></i>
-        </div>
-        <img src="${item.image}" alt="">
-        <p>${item.description}</p>
-        <div class="popup-languages">
-            <ul class="laguages-list">
-                <li>html</li>
-                <li>Ruby on rails</li>
-                <li>css</li>
-            </ul>
-        </div>
-        <div class="popup-button">
-            <div class="link-btn">
-                <button class="btn-ctc">See Live </button>
-                <button class="btn-ctc">See Source</button>
-            </div>
-        </div>
-    </div>`;
-    document.querySelector('.popup-container').innerHTML = popup;
+// function poppuWindow(cardId) {
+//     if (cardId === null) return;
+//     let item = projectsList.filter((elem) => elem.id === cardId);
+//     item = item.shift();
+//     const popup = `<div class="popup-window">
+//         <div class="popup-title">
+//             <h2>${item.title}</h2>
+//             <i class="fa fa-close popup-close"></i>
+//         </div>
+//         <img src="${item.image}" alt="">
+//         <p>${item.description}</p>
+//         <div class="popup-languages">
+//             <ul class="laguages-list">
+//                 <li>html</li>
+//                 <li>Ruby on rails</li>
+//                 <li>css</li>
+//             </ul>
+//         </div>
+//         <div class="popup-button">
+//             <div class="link-btn">
+//                 <button class="btn-ctc">See Live </button>
+//                 <button class="btn-ctc">See Source</button>
+//             </div>
+//         </div>
+//     </div>`;
+//     document.querySelector('.popup-container').innerHTML = popup;
 
-}
-
- // start of validation
-function chckValidation(elem) {
-    if (!elem) {
-      document.querySelector('small').style = 'display: block';
-      document.querySelector('small').innerHTML = 'Please write your email in lowercase.';
-      document.querySelector('.form-email').style = 'border: 3px red solid';
-    }
-  }
-  
-  const form = document.getElementById('form');
-  
-  form.addEventListener('submit', (e) => {
-    e.preventDefault();
-    const email = document.querySelector('.form-email').value;
-    if (email !== email.toLowerCase()) {
-      chckValidation(false);
-      return;
-    }
-    form.submit();
-    form.reset();
-    chckValidation(true);
-  });
-  // end of validation
-
-//   // Local Storge
-
-// const inputs = document.querySelectorAll('.formInput');
-// inputs.forEach((input) => {
-//   input.addEventListener('change', (e) => {
-//     let userInfo = JSON.parse(localStorage.getItem('userInfo'));
-//     if (!userInfo) {
-//       userInfo = { name: '', email: '', message: '' };
-//     }
-//     userInfo[e.target.name] = e.target.value;
-//     localStorage.setItem('userInfo', JSON.stringify(userInfo));
-//   });
-// });
-
-// function getInfo() {
-//   const userInfo = JSON.parse(localStorage.getItem('userInfo'));
-//   if (userInfo) {
-//     document.getElementById('name').value = userInfo.name;
-//     document.getElementById('email').value = userInfo.email;
-//     document.getElementById('msg').value = userInfo.message;
-//   }
 // }
-
-// getInfo();
-
-// // end of local Storge
