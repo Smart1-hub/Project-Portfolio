@@ -115,7 +115,7 @@ body {
 
 .window-card {
   flex-direction: column;
-  width: 306px;
+  width: 308px;
   height: auto;
   flex: none;
   order: 1;
