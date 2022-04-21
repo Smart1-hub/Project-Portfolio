@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 # Project Name
-> Porfolio: Mobile menu
+> Porfolio: Popup Window
 This is a Microverse project, week 4 - Module 1 for newly admitted students. It is precisely on document object manipulation using Javascript. 
 
 ## Built With
