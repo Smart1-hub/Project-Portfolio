@@ -1,9 +1,13 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 # Project Name
-> Porfolio: Mobile/Desktop Version
-This is a Microverse project, week 2 - Module 1 for newly admitted students. It is precisely on building a personal portfolio, desktop version. 
+> Porfolio: Mobile menu
+This is a Microverse project, week 4 - Module 1 for newly admitted students. It is precisely on document object manipulation using Javascript. 
+
 ## Built With
-- HTML and CSS
+- HTML 
+- CSS
+- JS
+##
 To get a local copy up and running follow these simple example steps:
 1. follow this link - https://github.com/Smart1-hub/Project-Portfolio
 2. Go to code and choose clone
