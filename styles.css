@@ -115,7 +115,7 @@ body {
 
 .window-card {
   flex-direction: column;
-  width: 308px;
+  width: 306px;
   height: auto;
   flex: none;
   order: 1;
@@ -681,7 +681,7 @@ hr {
   height: 66.72px;
   margin: 12px 0;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 20px;
   color: #253858;
   background: #f7f7f9;
