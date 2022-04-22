@@ -41,8 +41,8 @@ const projectsList = [{
     'CSS',
     'JavaScript',
   ],
-  liveLink: 'https://ibr5500.github.io/Portfolio/',
-  sourceLink: 'https://github.com/ibr5500/Portfolio',
+  liveLink: 'https://smart1-hub.github.io/Project-Portfolio',
+  sourceLink: 'https://github.com/Smart1-hub/Project-Portfolio',
 },
 {
   id: 2,
@@ -59,8 +59,8 @@ const projectsList = [{
     'CSS',
     'JavaScript',
   ],
-  liveLink: 'https://ibr5500.github.io/Portfolio/',
-  sourceLink: 'https://github.com/ibr5500/Portfolio',
+  liveLink: 'https://smart1-hub.github.io/Project-Portfolio',
+  sourceLink: 'https://github.com/Smart1-hub/Project-Portfolio',
 },
 {
   id: 3,
@@ -77,8 +77,8 @@ const projectsList = [{
     'CSS',
     'JavaScript',
   ],
-  liveLink: 'https://ibr5500.github.io/Portfolio/',
-  sourceLink: 'https://github.com/ibr5500/Portfolio',
+  liveLink: 'https://smart1-hub.github.io/Project-Portfolio',
+  sourceLink: 'https://github.com/Smart1-hub/Project-Portfolio',
 },
 {
   id: 4,
@@ -96,8 +96,8 @@ const projectsList = [{
     'CSS',
     'JavaScript',
   ],
-  liveLink: 'https://ibr5500.github.io/Portfolio/',
-  sourceLink: 'https://github.com/ibr5500/Portfolio',
+  liveLink: 'https://smart1-hub.github.io/Project-Portfolio',
+  sourceLink: 'https://github.com/Smart1-hub/Project-Portfolio,
 },
 ];
 
